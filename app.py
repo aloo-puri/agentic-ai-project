@@ -19,93 +19,100 @@ os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 # ==============================
 st.set_page_config(page_title="AI Document Classifier", layout="wide")
 
-st.title("📄 AI Office Document Classification System")
-st.write("Upload a document and let AI classify and route it.")
+st.title("🤖 AI Office Document Classification System")
+st.write("Upload documents and let AI classify and route them.")
 
-uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
+uploaded_files = st.file_uploader(
+    "Upload PDF(s)", 
+    type=["pdf"], 
+    accept_multiple_files=True
+)
 
-if uploaded_file is not None:
+# ==============================
+# Initialize LLM once
+# ==============================
+llm = ChatGroq(
+    model="openai/gpt-oss-120b",   # replace your previous model
+    temperature=0
+)
 
-    # Save uploaded file temporarily
-    with open("temp.pdf", "wb") as f:
-        f.write(uploaded_file.read())
+prompt = ChatPromptTemplate.from_template("""
+You are an office document classification assistant.
 
-    st.success("File uploaded successfully!")
+Classify the following document into ONE of:
+Invoice, Purchase Order, Contract, HR Document, Internal Memo, Financial Report.
 
-    # ==============================
-    # Load PDF
-    # ==============================
-    loader = PyPDFLoader("temp.pdf")
-    pdf_documents = loader.load()
+Return STRICT JSON with:
+- document_type
+- confidence (0 to 1)
+- recommended_department
+- reasoning (1 short sentence)
 
-    # ==============================
-    # Split Text
-    # ==============================
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=50
-    )
-    split_document = text_splitter.split_documents(pdf_documents)
+Document content:
+----------------
+{document_text}
+""")
 
-    document_text = "\n\n".join([doc.page_content for doc in split_document])
+chain = prompt | llm
 
-    # ==============================
-    # Initialize Groq LLM
-    # ==============================
-    llm = ChatGroq(
-        model="openai/gpt-oss-120b",
-        temperature=0
-    )
+# ==============================
+# Process uploaded files
+# ==============================
+if uploaded_files:
 
-    # ==============================
-    # Prompt
-    # ==============================
-    prompt = ChatPromptTemplate.from_template("""
-    You are an office document classification assistant.
+    for i, uploaded_file in enumerate(uploaded_files):
 
-    Classify the following document into ONE of:
-    Invoice, Purchase Order, Contract, HR Document, Internal Memo, Financial Report.
+        st.divider()
+        st.subheader(f"📄 Document {i+1}: {uploaded_file.name}")
 
-    Return STRICT JSON with:
-    - document_type
-    - confidence (0 to 1)
-    - recommended_department
-    - reasoning (1 short sentence)
+        # Save file temporarily
+        temp_file = f"temp_{i}.pdf"
 
-    Document content:
-    ----------------
-    {document_text}
-    """)
+        with open(temp_file, "wb") as f:
+            f.write(uploaded_file.read())
 
-    chain = prompt | llm
+        # Load PDF
+        loader = PyPDFLoader(temp_file)
+        pdf_documents = loader.load()
 
-    with st.spinner("Analyzing document..."):
-        response = chain.invoke({
-            "document_text": document_text
-        })
+        # Split text
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=500,
+            chunk_overlap=50
+        )
 
-    try:
-        result = json.loads(response.content)
+        split_document = text_splitter.split_documents(pdf_documents)
 
-        st.subheader("📊 Classification Result")
+        document_text = "\n\n".join([doc.page_content for doc in split_document])
 
-        st.markdown(f"**Document Type:** {result['document_type']}")
-        st.markdown(f"**Recommended Department:** {result['recommended_department']}")
-        st.markdown(f"**Reasoning:** {result['reasoning']}")
+        # Limit context size (important)
+        document_text = document_text[:6000]
 
-        confidence = float(result["confidence"])
+        with st.spinner("Analyzing document..."):
 
-        st.progress(confidence)
-        st.write(f"Confidence Score: {confidence:.2f}")
+            response = chain.invoke({
+                "document_text": document_text
+            })
 
-        # Routing Logic
-        if confidence >= 0.85:
-            st.success("✅ High confidence — Ready for auto-routing.")
-        elif confidence >= 0.60:
-            st.warning("⚠️ Medium confidence — Please review before routing.")
-        else:
-            st.error("❌ Low confidence — Manual review recommended.")
+        try:
+            result = json.loads(response.content)
 
-    except:
-        st.error("LLM output was not valid JSON.")
-        st.write(response.content)
+            st.markdown(f"**Document Type:** {result['document_type']}")
+            st.markdown(f"**Recommended Department:** {result['recommended_department']}")
+            st.markdown(f"**Reasoning:** {result['reasoning']}")
+
+            confidence = float(result["confidence"])
+
+            st.progress(confidence)
+            st.write(f"Confidence Score: {confidence:.2f}")
+
+            if confidence >= 0.85:
+                st.success("High confidence")
+            elif confidence >= 0.60:
+                st.warning("Medium confidence")
+            else:
+                st.error("Low confidence")
+
+        except:
+            st.error("LLM output was not valid JSON.")
+            st.write(response.content)
