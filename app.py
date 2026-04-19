@@ -3,7 +3,11 @@ import json
 import streamlit as st
 from dotenv import load_dotenv
 
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import (
+    PyPDFLoader,
+    Docx2txtLoader,
+    TextLoader
+)
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
@@ -23,8 +27,8 @@ st.title("🤖 AI Office Document Classification System")
 st.write("Upload documents and let AI classify and route them.")
 
 uploaded_files = st.file_uploader(
-    "Upload PDF(s)", 
-    type=["pdf"], 
+    "Upload Documents",
+    type=["pdf", "docx", "txt"],   # ✅ added txt
     accept_multiple_files=True
 )
 
@@ -32,7 +36,7 @@ uploaded_files = st.file_uploader(
 # Initialize LLM once
 # ==============================
 llm = ChatGroq(
-    model="openai/gpt-oss-120b",   # replace your previous model
+    model="openai/gpt-oss-120b",
     temperature=0
 )
 
@@ -65,31 +69,51 @@ if uploaded_files:
         st.divider()
         st.subheader(f"📄 Document {i+1}: {uploaded_file.name}")
 
-        # Save file temporarily
-        temp_file = f"temp_{i}.pdf"
+        # Detect extension
+        file_extension = uploaded_file.name.split(".")[-1].lower()
+        temp_file = f"temp_{i}.{file_extension}"
 
+        # Save file
         with open(temp_file, "wb") as f:
             f.write(uploaded_file.read())
 
-        # Load PDF
-        loader = PyPDFLoader(temp_file)
-        pdf_documents = loader.load()
+        # ==============================
+        # Select Loader
+        # ==============================
+        if file_extension == "pdf":
+            loader = PyPDFLoader(temp_file)
 
+        elif file_extension == "docx":
+            loader = Docx2txtLoader(temp_file)
+
+        elif file_extension == "txt":
+            loader = TextLoader(temp_file, encoding="utf-8")
+
+        else:
+            st.error("Unsupported file type")
+            continue
+
+        documents = loader.load()
+
+        # ==============================
         # Split text
+        # ==============================
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=500,
             chunk_overlap=50
         )
 
-        split_document = text_splitter.split_documents(pdf_documents)
+        split_document = text_splitter.split_documents(documents)
 
         document_text = "\n\n".join([doc.page_content for doc in split_document])
 
-        # Limit context size (important)
+        # Limit size for LLM
         document_text = document_text[:6000]
 
+        # ==============================
+        # LLM Call
+        # ==============================
         with st.spinner("Analyzing document..."):
-
             response = chain.invoke({
                 "document_text": document_text
             })
