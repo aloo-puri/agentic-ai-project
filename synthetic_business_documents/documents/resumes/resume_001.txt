@@ -1,0 +1,44 @@
+PRIYA SHARMA
+Email: priya.sharma@email.com | Phone: +91-98765-43210
+Address: Flat 302, Green Valley Apartments, Koramangala, Bengaluru 560034
+
+PROFESSIONAL SUMMARY
+Results-driven software engineer with 5 years of experience in full-stack development, cloud infrastructure, and agile methodologies. Proven track record of delivering scalable applications for e-commerce and fintech domains.
+
+WORK EXPERIENCE
+
+Senior Software Engineer
+TechVista Solutions Pvt Ltd, Bengaluru
+June 2022 - Present
+- Led development of microservices architecture serving 2 million daily active users
+- Implemented CI/CD pipelines reducing deployment time by 60%
+- Mentored team of 4 junior developers on React and Node.js best practices
+- Technologies: React, Node.js, PostgreSQL, Docker, AWS, Kubernetes
+
+Software Engineer
+Digital Innovations India, Pune
+July 2019 - May 2022
+- Developed RESTful APIs for mobile banking application
+- Optimized database queries improving response time by 40%
+- Collaborated with cross-functional teams on payment gateway integration
+- Technologies: Java, Spring Boot, MySQL, Redis
+
+EDUCATION
+
+Bachelor of Technology in Computer Science
+National Institute of Technology, Trichy
+2015 - 2019 | CGPA: 8.7/10
+
+TECHNICAL SKILLS
+Languages: Java, JavaScript, Python, SQL
+Frameworks: React, Node.js, Spring Boot, Express.js
+Tools: Git, Docker, Jenkins, Jira, Postman
+Cloud: AWS (EC2, S3, Lambda, RDS), Azure
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect Associate (2023)
+- Oracle Certified Java Programmer (2020)
+
+PROJECTS
+E-Commerce Platform Redesign - Led frontend modernization using React and Redux
+Real-time Analytics Dashboard - Built data visualization tool processing 100K events/second

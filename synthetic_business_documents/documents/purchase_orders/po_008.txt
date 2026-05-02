@@ -1,0 +1,31 @@
+INTERNAL MEMO - Vendor Engagement Approval
+
+To: Finance Department, Legal Team
+From: Ritu Sharma, Operations Director  
+Date: February 1, 2026
+Subject: Software licensing procurement - FY 2026-27
+
+We've finalized negotiations with DataStream Analytics Solutions after evaluating three vendors. Their proposal best fits our requirements for the data warehouse upgrade project.
+
+Vendor: DataStream Analytics Solutions Pvt Ltd, Cyber Gateway, Madhapur, Hyderabad
+Our Reference: MM-SW-LIC-2026-02
+Approved Budget Line: IT Infrastructure - Software
+
+License and implementation package:
+Enterprise Data Analytics Platform (50 concurrent user licenses) - annual subscription model at 2,850,000 per year for 3 years, total commitment 8,550,000
+Implementation and integration services estimated 1,950,000 one time
+Training program for IT team and business analysts 485,000
+Premium support package with 4-hour response SLA 725,000 annually
+
+Total Year 1: 6,010,000 + GST
+Years 2-3: 3,575,000 each + GST
+
+This was approved in the December board meeting under capital allocation for digital transformation. Legal has reviewed the master services agreement.
+
+Setup must complete by March 31st to align with our Q1 FY27 reporting cycle. Their team committed to this timeline in writing.
+
+Payment structure they've agreed to: 25% on contract signing, 35% on UAT completion, 20% on go-live, remaining 20% after 30 days of stable operation.
+
+Please process the vendor onboarding and initial payment release. CC the compliance team for due diligence.
+
+Ritu

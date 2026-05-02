@@ -1,0 +1,41 @@
+EVERGREEN TEXTILES LIMITED
+Manufacturing Unit: Sector 59, Noida, Uttar Pradesh 201301
+CIN: U17110UP2005PLC034567
+
+PURCHASE ORDER
+
+Order Number: EGT/2026/PO/0445
+Date of Issue: 16 January 2026
+
+SUPPLIER:
+ColorChem Industries Pvt Ltd
+Plot 23, Chemical Zone, Vapi
+Gujarat 396195
+
+DELIVERY ADDRESS:
+Evergreen Textiles Limited
+Raw Material Warehouse, Gate No. 3
+Sector 59, Noida 201301
+
+MATERIALS ORDERED:
+
+Item Code    Description                        Quantity      Rate         Total
+CC-101       Reactive Dye - Navy Blue           500 kg        680.00      340000.00
+CC-215       Reactive Dye - Crimson Red         400 kg        720.00      288000.00
+CC-308       Disperse Dye - Black               600 kg        590.00      354000.00
+CC-142       Acid Dye - Yellow                  300 kg        640.00      192000.00
+CC-099       Optical Brightener Agent           200 kg        850.00      170000.00
+
+                                                    Gross Amount:        1344000.00
+                                                    CGST @ 9%:            120960.00
+                                                    SGST @ 9%:            120960.00
+                                                    
+                                                    TOTAL VALUE:         1585920.00
+
+Delivery Schedule: Within 21 days of PO date
+Payment Terms: 45 days from receipt of material
+Transportation: To be arranged by supplier, freight prepaid
+Quality: As per IS standards, COA mandatory
+
+Purchase Manager: Anita Deshmukh
+Authorization Code: EGT-ADM-2026

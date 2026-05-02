@@ -1,0 +1,42 @@
+ZEPHYR TECHNOLOGIES INDIA PRIVATE LIMITED
+IT Park, Block C, Sector 62, Noida 201309
+
+Vendor Order Authorization
+Document ID: ZT-VO-2026-156
+Generated: January 25, 2026
+Validity: 30 days from issue date
+
+To: Silicon Valley Components
+84 Electronics City Phase 1, Bengaluru 560100
+
+Procurement Requirement: Hardware Infrastructure Upgrade - Noida Office
+
+Items Specification and Commercials:
+
+Dell PowerEdge R750 Servers (Xeon processor, 128GB RAM, 4TB storage)
+Quantity: 8 units | Unit Cost: INR 485,000 | Line Total: INR 3,880,000
+
+Cisco Catalyst 9300 Network Switches (48-port)
+Quantity: 4 units | Unit Cost: INR 325,000 | Line Total: INR 1,300,000
+
+APC Smart-UPS 10KVA with battery backup
+Quantity: 3 units | Unit Cost: INR 285,000 | Line Total: INR 855,000
+
+HP Color LaserJet Enterprise Printers
+Quantity: 12 units | Unit Cost: INR 68,000 | Line Total: INR 816,000
+
+Logitech Conference Camera Systems
+Quantity: 6 units | Unit Cost: INR 125,000 | Line Total: INR 750,000
+
+Order Subtotal: INR 7,601,000
+Integrated GST @ 18%: INR 1,368,180
+Grand Total: INR 8,969,180
+
+Shipping: DDP to our Noida facility
+Installation Support: Required for servers and network equipment
+Delivery Timeframe: Complete delivery by February 28, 2026
+Warranty: Standard manufacturer warranty applicable
+
+Banking details for advance payment will be shared separately.
+
+Authorized by: Kiran Malhotra, Head of IT Operations

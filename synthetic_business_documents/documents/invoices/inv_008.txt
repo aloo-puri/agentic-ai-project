@@ -1,0 +1,38 @@
+CloudScale Technologies India LLP
+Cyber Towers, HITEC City, Hyderabad 500081
+
+CLIENT BILLING STATEMENT
+
+To: FinServe Banking Solutions Pvt Ltd
+12th Floor, Lotus Business Park, Andheri Mumbai 400059
+
+Reference ID: CS-FS-2026-Q1-001
+Period: January 2026
+Issue Date: 2 February 2026
+
+Cloud Services Utilization:
+AWS Infrastructure Management (720 hours)                    INR 245000
+Database Administration and Optimization                     INR 180000
+Security Monitoring and Incident Response                    INR 156000
+DevOps Support - CI/CD Pipeline Management                   INR 134000
+24x7 Technical Support Coverage                              INR 225000
+
+Professional Services:
+Migration Consultation (32 hours @ INR 4500)                 INR 144000
+Performance Tuning Workshop                                  INR  85000
+
+Subtotal:                                                   INR 1169000
+Integrated GST @ 18%:                                       INR  210420
+
+Total Billing Amount:                                       INR 1379420
+
+Rupees Thirteen Lakh Seventy Nine Thousand Four Hundred Twenty Only
+
+Terms: Payment due within 30 days of invoice date
+Late payment interest: 1.5% per month
+
+Banking: State Bank of India, Branch Code 11234
+Account Number: 30123456789, IFSC: SBIN0011234
+
+Kavitha Reddy, Finance Controller
+CloudScale Technologies

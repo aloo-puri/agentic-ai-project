@@ -1,0 +1,42 @@
+NATIONAL EDUCATIONAL INSTITUTE
+23 Kasturba Gandhi Marg, Connaught Place, New Delhi 110001
+Phone: 011-23456789 | Email: admin@nei.edu.in
+
+PURCHASE ORDER
+
+PO Number: NEI/2025/LIB/456
+Date: 18 December 2025
+
+VENDOR:
+Academic Books Publishers Pvt Ltd
+56 Daryaganj, New Delhi 110002
+
+SHIP TO:
+National Educational Institute
+Central Library, First Floor
+Same as above address
+
+BOOKS ORDER FOR LIBRARY - WINTER COLLECTION 2025
+
+Sr.  ISBN            Title                                    Qty   Price    Total
+1    978-0-14-35     Indian Economic Development              50    650      32,500
+2    978-0-19-28     Constitutional Law of India              40    895      35,800
+3    978-0-52-77     Advanced Mathematics Vol I & II          60    1,250    75,000
+4    978-0-33-91     Modern Indian History                    45    720      32,400
+5    978-0-41-88     Business Statistics and Analytics        35    980      34,300
+6    978-0-67-23     Environmental Science                    55    540      29,700
+7    978-0-29-45     Computer Programming with Python         50    850      42,500
+
+                                                    Books Subtotal:        282,200
+                                                    Packaging & Shipping:    8,500
+                                                    Total Amount:          290,700
+
+Books are GST exempt as per notification
+
+Payment Terms: 30 days from delivery
+Delivery Required: By 10 January 2026
+Special Note: Books should be in pristine condition with library binding
+
+Authorized By: Prof. Ajay Khanna
+Chief Librarian
+Signature: ________________

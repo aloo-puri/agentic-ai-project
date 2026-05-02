@@ -1,0 +1,50 @@
+SOFTWARE LICENSE AND MAINTENANCE AGREEMENT
+
+Agreement Number: SLA-2026-0034
+Effective Date: 1 February 2026
+
+LICENSOR
+CloudPro Software Solutions India Limited  
+Technology Park, Sector V, Salt Lake, Kolkata 700091
+Corporate Identification Number: U72200WB2012PLC189234
+
+LICENSEE  
+National Insurance Company Ltd
+Head Office, Ballard Estate, Mumbai 400001
+
+GRANT OF LICENSE
+
+Licensor hereby grants Licensee non-exclusive, non-transferable license to use "InsureTech Pro" insurance management software for internal business operations across Licensee's 150 branch offices in India.
+
+License covers core insurance modules including policy administration, claims processing, underwriting, and customer relationship management. Maximum 500 concurrent named users permitted.
+
+LICENSE FEE AND PAYMENT
+
+Perpetual license fee: INR 1,85,00,000 (One Crore Eighty Five Lakh Rupees Only)
+Annual maintenance (AMR): INR 37,00,000 (20% of license fee) 
+Implementation services: INR 28,00,000
+
+Total Year 1 payment: INR 2,50,00,000 plus GST @ 18%
+
+License fee payable 50% on signing, 50% on go-live. AMR invoiced annually in advance. Payment terms net 30 days.
+
+SUPPORT AND MAINTENANCE
+
+AMR includes software updates, bug fixes, telephone and email support during business hours (9 AM to 6 PM IST, Monday-Friday), and online knowledge base access. Critical bugs addressed within 24 hours, other issues per documented SLA.
+
+TERM AND TERMINATION
+
+Perpetual license for software use. Maintenance renews annually unless terminated with 60 days notice before renewal date. Material breach permits termination with 30 days cure period.
+
+DATA AND CONFIDENTIALITY
+
+Licensee owns all data entered into system. Both parties protect confidential information per standard industry practices.
+
+LIMITATION OF LIABILITY  
+
+Licensor's maximum liability limited to fees paid in preceding 12 months. No liability for consequential or indirect damages.
+
+ACCEPTED AND AGREED
+
+CloudPro Software Solutions India Ltd          National Insurance Company Ltd
+Authorized Signatory                            Authorized Signatory

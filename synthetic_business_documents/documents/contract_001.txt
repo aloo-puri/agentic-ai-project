@@ -1,0 +1,41 @@
+SERVICE AGREEMENT
+
+This Agreement is entered into on 15th January 2026
+
+BETWEEN
+
+TechSolutions India Private Limited, a company incorporated under the Companies Act 2013, having its registered office at Plot 45, Whitefield, Bengaluru 560066, Karnataka (hereinafter referred to as "Service Provider")
+
+AND
+
+Global Retail Enterprises Limited, a company registered under Companies Act 2013, having its registered office at Tower B, Cyber City, Gurugram 122002, Haryana (hereinafter referred to as "Client")
+
+WHEREAS the Client desires to engage the Service Provider for IT infrastructure management services, and the Service Provider agrees to provide such services under the terms specified herein.
+
+TERMS AND CONDITIONS
+
+1. SCOPE OF SERVICES
+The Service Provider shall provide cloud infrastructure management, database administration, cybersecurity monitoring, and 24x7 technical support for Client's e-commerce platform and enterprise applications.
+
+2. TERM
+This Agreement shall commence on 1st February 2026 and continue for a period of 24 months unless terminated earlier as per clause 8.
+
+3. COMPENSATION
+The Client shall pay monthly service fees of INR 12,50,000 (Rupees Twelve Lakh Fifty Thousand Only) plus applicable GST. Payment due within 15 days of invoice.
+
+4. CONFIDENTIALITY
+Both parties agree to maintain confidentiality of all proprietary information, trade secrets, and business data exchanged during the term of this Agreement.
+
+5. INTELLECTUAL PROPERTY
+All intellectual property rights in deliverables created shall vest with the Client upon full payment.
+
+6. LIABILITY
+Service Provider's liability shall be limited to the fees paid in the preceding 6 months.
+
+7. TERMINATION
+Either party may terminate with 60 days written notice. Immediate termination permitted for material breach.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement on the date first written above.
+
+For TechSolutions India Pvt Ltd          For Global Retail Enterprises Ltd
+Authorized Signatory                      Authorized Signatory

@@ -1,0 +1,43 @@
+SUNRISE PHARMACEUTICALS LIMITED
+Registered Office: 89 Parel, Mumbai 400012
+Manufacturing Unit: Baddi, Himachal Pradesh
+
+Supplier Purchase Order
+PO Number: SPL/2026/API/0167
+Date: 22 January 2026
+
+SUPPLIER INFORMATION:
+ChemSource Industries Pvt Ltd
+Plot 45-46, MIDC Tarapur
+Boisar, Maharashtra 401506
+GST: 27AABCC1234D1Z5
+
+DELIVERY LOCATION:
+Sunrise Pharmaceuticals - Baddi Plant
+Quality Control Department, Gate 2
+Baddi 173205, Himachal Pradesh
+
+ORDER DETAILS - ACTIVE PHARMACEUTICAL INGREDIENTS:
+
+Product                               Pack Size    Quantity    Rate/kg    Value (INR)
+Paracetamol IP                        25 kg        2000 kg     425.00     850,000
+Amoxicillin Trihydrate USP            10 kg        500 kg      1,850.00   925,000
+Cetirizine Dihydrochloride IP         5 kg         200 kg      3,200.00   640,000
+Metformin Hydrochloride IP            25 kg        1500 kg     380.00     570,000
+Ranitidine Hydrochloride USP          10 kg        300 kg      2,450.00   735,000
+
+Total API Cost:                                                           3,720,000
+Transportation and Handling:                                                 45,000
+                                                            Subtotal:     3,765,000
+GST @ 12%:                                                                  451,800
+TOTAL ORDER VALUE:                                                        4,216,800
+
+Special Instructions:
+- COA and batch manufacturing records mandatory
+- Temperature-controlled transport required
+- Delivery schedule: Within 15 days
+- Each batch to be tested before acceptance
+
+Payment: LC at sight
+Quality Manager: Dr. Priya Malhotra
+Authorized Signatory: Vijay Kumar, Senior VP Procurement

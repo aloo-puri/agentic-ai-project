@@ -1,0 +1,32 @@
+TechNova Solutions Pvt Ltd
+45 MG Road, Bengaluru, Karnataka 560001
+GSTIN: 29AABCT1234F1Z5
+Email: billing@technova.in
+
+Bill To:
+Nexus Enterprises Ltd
+12 Whitefield Main Road
+Bengaluru 560066
+
+Date: 15 January 2026
+Reference Number: TN/2026/0147
+
+Description                                    Quantity    Rate (INR)    Amount (INR)
+Software Development Services - Q4 2025            1        450000.00      450000.00
+Cloud Infrastructure Support                       3         25000.00       75000.00
+Technical Consultation Hours                      20          3500.00       70000.00
+
+                                                          Subtotal:      595000.00
+                                                          CGST @ 9%:      53550.00
+                                                          SGST @ 9%:      53550.00
+                                                          
+                                                          Total Amount:  702100.00
+
+Payment Terms: Net 30 days
+Due Date: 14 February 2026
+Bank Details: HDFC Bank, Account 50200012345678, IFSC: HDFC0001234
+
+Amount in words: Seven Lakh Two Thousand One Hundred Rupees Only
+
+For TechNova Solutions Pvt Ltd
+Authorized Signatory

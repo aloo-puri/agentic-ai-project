@@ -1,0 +1,33 @@
+Re: Strategic Partnership Framework
+
+Dear Amit,
+
+Following our discussions in Delhi last month, I'm documenting the key terms we've agreed upon for the collaboration between our organizations.
+
+Parties Involved:
+DataVault Technologies Pvt Ltd (represented by Amit Chawla, CEO) - the technology platform provider
+InsightEdge Analytics LLP (our firm, represented by me, Neha Kapoor, Managing Partner) - the analytics and consulting partner
+
+What we're agreeing to:
+We'll work together on enterprise data analytics solutions for financial services sector. DataVault provides the platform infrastructure and we bring domain expertise, client relationships, and implementation capabilities.
+
+Commercial arrangement:
+Revenue split is 60-40 in our favor for projects we source and manage. For opportunities DataVault brings, split reverses to 40-60. Both parties invoice clients independently for their respective scopes. Minimum annual commitment from our end is Rs 5 crore in platform licensing fees regardless of project flow.
+
+IP and proprietary stuff:
+Platform remains DataVault's IP. Our methodologies, frameworks, and industry models remain ours. Any jointly developed solutions get shared IP with both parties having non-exclusive usage rights. Client data stays confidential to both parties.
+
+Timeline and commitment:
+We're looking at 3-year partnership starting April 2026. Either party can exit with 6 months notice after first year, though financial commitments for that year remain. We'll review performance semi-annually and can mutually adjust terms.
+
+Non-compete understanding:
+During partnership term and 18 months after, we won't engage competing platform providers for BFSI sector in India. DataVault won't directly approach our existing analytics clients without involving us.
+
+Dispute resolution:
+Any disagreements go through escalation (our MDs first), then mediation, and finally arbitration in Bengaluru if needed.
+
+Let me know if I've missed anything or if you'd like changes. We can get the formal paperwork done once you confirm.
+
+Best regards,
+Neha Kapoor
+Managing Partner, InsightEdge Analytics LLP

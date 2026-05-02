@@ -1,0 +1,36 @@
+From: accounts@primelogistics.co.in
+To: payments@globalretail.com
+Subject: Payment Request - December Services
+
+Hi Team,
+
+Please find the billing details for logistics services provided during December 2025.
+
+Prime Logistics India Pvt Ltd, Plot 78, Sector 18, Gurugram 122015
+GST: 06AADCP8821M1Z2
+
+Client: Global Retail Corporation, Noida
+
+Ref: PL/DEC/2025/892
+Date of Issue: 8 January 2026
+
+Services Rendered:
+Warehouse storage for 2500 sq ft at INR 85 per sq ft monthly - INR 212500
+Transportation - 45 shipments at INR 4200 each - INR 189000
+Packaging materials and handling - INR 67000
+
+Gross Total: INR 468500
+GST @ 18%: INR 84330
+Net Payable: INR 552830
+
+Kindly process payment within 15 days to avoid late charges of 2% per month.
+
+Our banking details:
+ICICI Bank Ltd, Gurugram Branch
+A/C: 602305012345, IFSC: ICIC0006023
+
+Let me know if you need any clarification.
+
+Regards,
+Rahul Mehta
+Finance Manager

@@ -1,0 +1,42 @@
+STREAMLINE RETAIL PRIVATE LIMITED
+Corporate Office: 156 Linking Road, Bandra West, Mumbai 400050
+Phone: 022-26431234 | Email: procurement@streamlineretail.com
+
+PURCHASE ORDER
+
+PO Number: SR/PO/2026/1234
+PO Date: 28 January 2026
+Delivery Required By: 15 February 2026
+
+VENDOR DETAILS:
+FreshFarm Agro Products Pvt Ltd
+Village Talawade, Pune - Nashik Highway
+Pune, Maharashtra 412114
+
+SHIP TO:
+Streamline Retail Distribution Center
+Warehouse 4B, Bhiwandi Logistics Park
+Bhiwandi, Thane 421302
+
+ITEM DETAILS:
+
+Sr. No.  Description                    Quantity    Unit Price    Amount
+1        Fresh Tomatoes (Grade A)       2000 kg     45.00         90000.00
+2        Onions (Medium Size)            1500 kg     35.00         52500.00
+3        Green Capsicum                  800 kg      60.00         48000.00
+4        Fresh Coriander (bunches)       500 units   12.00          6000.00
+5        Potatoes (Large)                2500 kg     28.00         70000.00
+
+Subtotal:                                                        266500.00
+GST Not Applicable (Fresh Produce)
+
+Total Order Value: INR 266500.00
+
+Terms and Conditions:
+1. Quality must meet FSSAI standards
+2. Delivery between 6 AM to 10 AM only
+3. Payment within 15 days of delivery
+4. Invoice must accompany delivery
+
+Approved By: Ramesh Patel
+Procurement Manager

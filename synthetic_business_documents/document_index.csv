@@ -1,0 +1,51 @@
+Document_ID,Document_Type,Difficulty_Level,Noise_Level,Filename,File_Path
+INV001,Invoice,Easy,None,inv_001.txt,documents/invoices/inv_001.txt
+INV002,Invoice,Medium,Low,inv_002.txt,documents/invoices/inv_002.txt
+INV003,Invoice,Hard,Medium,inv_003.txt,documents/invoices/inv_003.txt
+INV004,Invoice,Easy,None,inv_004.txt,documents/invoices/inv_004.txt
+INV005,Invoice,Medium,None,inv_005.txt,documents/invoices/inv_005.txt
+INV006,Invoice,Hard,Low,inv_006.txt,documents/invoices/inv_006.txt
+INV007,Invoice,Easy,None,inv_007.txt,documents/invoices/inv_007.txt
+INV008,Invoice,Medium,Low,inv_008.txt,documents/invoices/inv_008.txt
+INV009,Invoice,Hard,None,inv_009.txt,documents/invoices/inv_009.txt
+INV010,Invoice,Medium,None,inv_010.txt,documents/invoices/inv_010.txt
+PO001,Purchase Order,Easy,None,po_001.txt,documents/purchase_orders/po_001.txt
+PO002,Purchase Order,Medium,Low,po_002.txt,documents/purchase_orders/po_002.txt
+PO003,Purchase Order,Hard,None,po_003.txt,documents/purchase_orders/po_003.txt
+PO004,Purchase Order,Easy,None,po_004.txt,documents/purchase_orders/po_004.txt
+PO005,Purchase Order,Medium,None,po_005.txt,documents/purchase_orders/po_005.txt
+PO006,Purchase Order,Medium,Medium,po_006.txt,documents/purchase_orders/po_006.txt
+PO007,Purchase Order,Easy,None,po_007.txt,documents/purchase_orders/po_007.txt
+PO008,Purchase Order,Hard,Medium,po_008.txt,documents/purchase_orders/po_008.txt
+PO009,Purchase Order,Medium,None,po_009.txt,documents/purchase_orders/po_009.txt
+PO010,Purchase Order,Easy,None,po_010.txt,documents/purchase_orders/po_010.txt
+RES001,Resume,Easy,None,resume_001.txt,documents/resumes/resume_001.txt
+RES002,Resume,Medium,Low,resume_002.txt,documents/resumes/resume_002.txt
+RES003,Resume,Hard,Medium,resume_003.txt,documents/resumes/resume_003.txt
+RES004,Resume,Easy,None,resume_004.txt,documents/resumes/resume_004.txt
+RES005,Resume,Medium,None,resume_005.txt,documents/resumes/resume_005.txt
+RES006,Resume,Hard,None,resume_006.txt,documents/resumes/resume_006.txt
+RES007,Resume,Easy,None,resume_007.txt,documents/resumes/resume_007.txt
+RES008,Resume,Medium,Low,resume_008.txt,documents/resumes/resume_008.txt
+RES009,Resume,Hard,Medium,resume_009.txt,documents/resumes/resume_009.txt
+RES010,Resume,Easy,None,resume_010.txt,documents/resumes/resume_010.txt
+CON001,Contract,Easy,None,contract_001.txt,documents/contracts/contract_001.txt
+CON002,Contract,Medium,Low,contract_002.txt,documents/contracts/contract_002.txt
+CON003,Contract,Hard,Medium,contract_003.txt,documents/contracts/contract_003.txt
+CON004,Contract,Medium,None,contract_004.txt,documents/contracts/contract_004.txt
+CON005,Contract,Easy,None,contract_005.txt,documents/contracts/contract_005.txt
+CON006,Contract,Hard,None,contract_006.txt,documents/contracts/contract_006.txt
+CON007,Contract,Medium,Low,contract_007.txt,documents/contracts/contract_007.txt
+CON008,Contract,Easy,None,contract_008.txt,documents/contracts/contract_008.txt
+CON009,Contract,Medium,None,contract_009.txt,documents/contracts/contract_009.txt
+CON010,Contract,Hard,Medium,contract_010.txt,documents/contracts/contract_010.txt
+OFF001,Offer Letter,Easy,None,offer_001.txt,documents/offer_letters/offer_001.txt
+OFF002,Offer Letter,Medium,Low,offer_002.txt,documents/offer_letters/offer_002.txt
+OFF003,Offer Letter,Hard,Medium,offer_003.txt,documents/offer_letters/offer_003.txt
+OFF004,Offer Letter,Easy,None,offer_004.txt,documents/offer_letters/offer_004.txt
+OFF005,Offer Letter,Medium,None,offer_005.txt,documents/offer_letters/offer_005.txt
+OFF006,Offer Letter,Hard,None,offer_006.txt,documents/offer_letters/offer_006.txt
+OFF007,Offer Letter,Easy,None,offer_007.txt,documents/offer_letters/offer_007.txt
+OFF008,Offer Letter,Medium,Low,offer_008.txt,documents/offer_letters/offer_008.txt
+OFF009,Offer Letter,Medium,None,offer_009.txt,documents/offer_letters/offer_009.txt
+OFF010,Offer Letter,Easy,None,offer_010.txt,documents/offer_letters/offer_010.txt
