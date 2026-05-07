@@ -109,9 +109,12 @@ def clean_llm_json(text: str) -> str:
 @st.cache_resource
 def build_chain():
     llm = ChatGroq(
-        model="openai/gpt-oss-120b",
+        model="llama-3.1-8b-instant",
         temperature=0
     )
+#or use openai/gpt-oss-120b which will only take more time than 
+# openai/gpt-oss-20b and output will be similar but more stable than gpt-oss-20b
+#llama-3.1-8b-instant is faster and cheaper but may be less accurate on complex documents, so you can experiment with both.
 
     prompt = ChatPromptTemplate.from_template("""
 You are an office document classification assistant.
@@ -221,7 +224,17 @@ if uploaded_files:
             )[:6000]
 
             with st.spinner("Analyzing document..."):
-                response = chain.invoke({"document_text": text})
+                response = chain.invoke(
+                        {"document_text": text},
+                        config={
+                        "run_name": f"classify_{file_name}",
+                        "metadata": {
+                            "file_name": file_name,
+                            "file_type": file_extension,
+                            "chunk_length": len(text)
+                        }
+                }
+            )
 
             cleaned = clean_llm_json(response.content)
             result = json.loads(cleaned)
