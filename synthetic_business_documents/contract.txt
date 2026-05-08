@@ -1,0 +1,17 @@
+SERVICE AGREEMENT
+Contract Number: CON-2025-001
+
+This agreement is made between:
+- Service Provider: Tech Solutions Inc.
+- Client: ABC Corporation
+
+Terms and Conditions:
+1. Service Period: 12 months
+2. Monthly Fee: Rs. 50,000.00
+3. Payment Terms: Net 30 days
+4. Termination: 30 days notice required
+
+Signed by:
+- Provider Representative: John Smith
+- Client Representative: Jane Doe
+- Date: 31 July 2025

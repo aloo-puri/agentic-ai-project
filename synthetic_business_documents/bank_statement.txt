@@ -1,0 +1,15 @@
+HDFC BANK
+Monthly Statement
+Account Number: 1234567890
+Statement Period: July 2025
+
+Opening Balance: Rs. 25,000.00
+Closing Balance: Rs. 28,500.00
+
+Transactions:
+- 05/07/2025: Credit - Salary - Rs. 45,000.00
+- 15/07/2025: Debit - Amazon Purchase - Rs. 1,978.90
+- 20/07/2025: Debit - Utility Bill - Rs. 2,500.00
+- 25/07/2025: Credit - Refund - Rs. 1,978.90
+
+Thank you for banking with HDFC Bank.

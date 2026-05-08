@@ -1,0 +1,16 @@
+STARBUCKS COFFEE
+Receipt
+
+Date: 31 July 2025
+Time: 14:30
+Receipt #: SB-2025-001234
+
+Items:
+- Caramel Macchiato (Large) - Rs. 250.00
+- Chocolate Croissant - Rs. 120.00
+- Subtotal: Rs. 370.00
+- Tax (5%): Rs. 18.50
+- Total: Rs. 388.50
+
+Payment Method: Credit Card
+Thank you for visiting Starbucks!
